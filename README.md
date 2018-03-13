@@ -12,7 +12,7 @@ Add the `readingtime` function somewhere to your template:
 
 Will print something like `14 Min.`.
 
-Or store the readingtiime-object in a variable and access more data:
+Or store the readingtime-object in a variable and access more data:
 
 ````
 {% set readingtime = readingtime(record.body) %}
